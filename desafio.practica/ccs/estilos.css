@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/564x/e3/01/15/e30115cea2aea07afa4c7c62519e39b4.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navegacion a{
+    text-decoration: none;
+    list-style: none;
+    color:rgb(0, 0, 0);
+    font:bold 14px verdana;
+    background-color: rgba(241, 233, 233, 0.616);
+    
+
+}
+.titulo{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(165, 42, 42, 0.349);
+}
+.subtitulo{
+    text-decoration: overline;
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+    text-decoration: bold;
+    text-align: center;
+
+}
+.texto{
+    margin: 20px;
+    padding: 40px;
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+    text-decoration: bold;
+    background-color: rgba(0, 0, 0, 0.308);
+    
+}
+.contenedor .subtitulo{
+    background-color:rgba(0, 0, 0, 0.308);
+    padding: 0px;
+    margin:0px
+    
+  }
+ .contenedor{
+    display: flex;
+    text-align: center;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0);
+
+ }
+ 
+ .cartas{
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content:center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+ }
+
+.direccion{
+    color:beige;
+}
+.formulario{
+    color:beige;
+}
+
+.piepagina{
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.062);
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    color:rgb(238, 227, 227)
+}
+.piepagina a{
+    min-width: 700px;
+    display: inline;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: rgb(12, 9, 15);
+    color:beige;
+    border-radius: 70%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    transition: all ease-in-out;
+}
